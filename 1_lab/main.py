@@ -1,2 +1,6 @@
 #!/usr/bin/env python
-print("Hello world")
+from datetime import datetime
+name = "Markiyan"
+location = "Lviv"
+
+print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
